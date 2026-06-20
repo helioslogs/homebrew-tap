@@ -10,22 +10,22 @@ class Helioslogs < Formula
   on_macos do
     on_arm do
       url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.0/helioslogs-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "09d22b6dfe39adce2e59c55dcc0dca2bd168bba1a1e2fe9d1c02907f2f5451d1"
+      sha256 "44f059977e92ddce986397918dd400f0d92b2368132bbe4034ca29b017e8cf94"
     end
     on_intel do
       url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.0/helioslogs-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a81a817c0d89a7577fbb413b83a333c5399d5f1e00ca47f07a6508a156e6cccb"
+      sha256 "cad7465916e271bd5cf6308462ea7e3337aa87e986d3dc5bcf447c7f3a0edb66"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.0/helioslogs-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "735c58ec8aa8dca2a50b96e33aa5ebe50b168eef2adf5a390336ea1d9f512849"
+      sha256 "99007832466c2c2fe8bbd8f79d69cc346c7c15e07e20e864275f773b98580606"
     end
     on_intel do
       url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.0/helioslogs-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "365b21bacdabbe5264c80d6c842aee530809cff423242acdddaa83a7d75edffd"
+      sha256 "55e396726697eb981c5a452eb7292b70257795b28b41f7bbbde39694cb33b142"
     end
   end
 
