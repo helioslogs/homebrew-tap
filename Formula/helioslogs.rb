@@ -4,28 +4,28 @@
 class Helioslogs < Formula
   desc "AI-native log search engine with a built-in agent and MCP server"
   homepage "https://github.com/helioslogs/helioslogs"
-  version "0.2.3"
+  version "1.0.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.3/helioslogs-0.2.3-darwin_arm64.tar.gz"
-      sha256 "6d0b5f5263da06cdbc13c38e8ff98c9c99cc50b8a440fc4aa8b8b769546bd94d"
+      url "https://github.com/helioslogs/helioslogs/releases/download/v1.0.0/helioslogs-1.0.0-darwin_arm64.tar.gz"
+      sha256 "4c8eeab529f353f7493eccb287c5139347052e32e8a4c87d23ed5fcc4c9095a4"
     end
     on_intel do
-      url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.3/helioslogs-0.2.3-darwin_amd64.tar.gz"
-      sha256 "82ffbef68c597ab68790c031c225a14cee30209beedd370877f19b6b2184cf85"
+      url "https://github.com/helioslogs/helioslogs/releases/download/v1.0.0/helioslogs-1.0.0-darwin_amd64.tar.gz"
+      sha256 "ee060cfb328b7bcc06863330375ca3bf338c66932eda3f89b4573cbbd5ca2f86"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.3/helioslogs-0.2.3-linux_arm64.tar.gz"
-      sha256 "7eade1a6c0c02030d6ec66690a20dcfdd564c21ad8cc2219cfc123f204695c55"
+      url "https://github.com/helioslogs/helioslogs/releases/download/v1.0.0/helioslogs-1.0.0-linux_arm64.tar.gz"
+      sha256 "77f1277c3bbb1ef5b2ed853f779b7c572fec12cd9b6e55ed9050223d90da0bb4"
     end
     on_intel do
-      url "https://github.com/helioslogs/helioslogs/releases/download/v0.2.3/helioslogs-0.2.3-linux_amd64.tar.gz"
-      sha256 "0d9e6ab384e8c351dd00e96a9f5a1b0d87296ced8229b1397e6063b20d5d10b2"
+      url "https://github.com/helioslogs/helioslogs/releases/download/v1.0.0/helioslogs-1.0.0-linux_amd64.tar.gz"
+      sha256 "2df1d68d19cdcaf3aa5a57ca31f6b4be98ebbefdfed384d760985b47a3186145"
     end
   end
 
